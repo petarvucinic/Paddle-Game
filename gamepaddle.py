@@ -12,7 +12,7 @@ wn.tracer(0)
 score_a = 0
 score_b = 0
 
-# paddle A
+# Paddle A
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
 paddle_a.shape("square")
@@ -22,7 +22,7 @@ paddle_a.penup()
 paddle_a.goto(-350, 0)
 
 
-# paddle B
+# Paddle B
 paddle_b = turtle.Turtle()
 paddle_b.speed(0)
 paddle_b.shape("square")
@@ -140,5 +140,5 @@ while True:
     if ball.xcor() < -340 and ball.xcor() > -350 and (ball.ycor() < paddle_a.ycor() + 40 and ball.ycor() > paddle_a.ycor() - 40):
         ball.setx(-340)
         ball.dx *= -1
-
+# in progress
     
